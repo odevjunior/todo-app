@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: todo-app
+  main:
+    class: com.studies.todo_app.TodoAppApplication
+  h2:
+    console:
+      enabled: true
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:todo
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
