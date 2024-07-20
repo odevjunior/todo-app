@@ -1,6 +1,7 @@
 package com.studies.todo_app.controllers;
 
-import com.studies.todo_app.models.TodoEntity;
+import com.studies.todo_app.models.todo.TodoEntity;
+import com.studies.todo_app.models.translate.TranslateResponseEntity;
 import com.studies.todo_app.services.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -31,5 +32,10 @@ public class TodoController {
     @GetMapping("/todos")
     public ResponseEntity<List<TodoEntity>> getTodos() {
         return ResponseEntity.ok(this.todoService.getTodos());
+    }
+
+    @PostMapping("/translate/todo")
+    public ResponseEntity<TranslateResponseEntity> translateTodo(@RequestBody TodoEntity todo) {
+        return ResponseEntity.ok(this.todoService.translate(todo));
     }
 }

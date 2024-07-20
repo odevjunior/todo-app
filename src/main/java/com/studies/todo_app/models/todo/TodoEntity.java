@@ -1,4 +1,4 @@
-package com.studies.todo_app.models;
+package com.studies.todo_app.models.todo;
 
 import jakarta.persistence.*;
 
