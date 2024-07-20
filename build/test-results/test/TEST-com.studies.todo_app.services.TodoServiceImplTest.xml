@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.studies.todo_app.services.TodoServiceImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-07-06T04:00:50" hostname="MacBook-Pro-de-Jairo.local" time="1.5">
+<testsuite name="com.studies.todo_app.services.TodoServiceImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-20T02:57:03" hostname="MacBook-Pro-de-Jairo.local" time="1.876">
   <properties/>
-  <testcase name="whenCallsThegetTodosThenReturnATodoList()" classname="com.studies.todo_app.services.TodoServiceImplTest" time="1.474"/>
-  <testcase name="givenATodoEntityWhenCallsTheTodoServiceThenCallRepositoryToSaveTodo()" classname="com.studies.todo_app.services.TodoServiceImplTest" time="0.023"/>
+  <testcase name="givenATodoShouldDeleteIt()" classname="com.studies.todo_app.services.TodoServiceImplTest" time="1.876"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
